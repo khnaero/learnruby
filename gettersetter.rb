@@ -49,3 +49,18 @@ box2.setHeight = 25
 # puts box2.dispWidth
 # puts box2.dispHeight
 
+
+class Animal
+	def noise=(noise)
+		@noise = noise
+	end
+
+	def noise
+		@noise
+	end
+
+end
+
+animal1 = Animal.new
+animal1.noise = "Moo"
+puts animal1.noise
