@@ -1,3 +1,4 @@
+# Given a collection of numbers see if any pair of numbers is equal to the sum of a given number
 def element_pair_sum(arr, num)
   counter1 = 1
   status = "false"

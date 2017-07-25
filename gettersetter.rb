@@ -51,6 +51,10 @@ box2.setHeight = 25
 
 
 class Animal
+	def initialize(animal="cat")
+		puts "I'm a #{animal}!"
+	end
+
 	def noise=(noise)
 		@noise = noise
 	end
@@ -61,6 +65,6 @@ class Animal
 
 end
 
-animal1 = Animal.new
+animal1 = Animal.new("dog")
 animal1.noise = "Moo"
 puts animal1.noise
